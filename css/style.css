@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+/* GLOBAL */
+body {
+	margin: 0;
+}
+
+.bottom {
+	padding-top: 51px;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Popins', sans-serif;
+	text-align: justify;
+}
+
+.justify {
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+strong {
+	display: flex;
+	justify-content: center;
+	color: #c6a72f;
+	font-family: 'Libre Baskerville', serif;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.carousel-inner {
+	height: 100vh;
+}
+
+.carousel {
+	width: 100%;
+}
+
+a {
+color: #c6a72f;
+font-weight: bold;
+}
+
+
+/* Aleksandro stiliai */
+
+.box {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #c6a72f;
+}
+
+.logo {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* About box1 stiliai */
+.box1 {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+span {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+}
+
+/* Adomo stiliai */
+/* Box 2 stiliai */
+
+.box2 {
+  height:100vh;
+  width:100%;
+}
+
+img {
+  width: 90%;
+}
+
+/* img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+} */
+
+.box3 {
+  height:100vh;
+  width:100%;
+}
+
+.jonas {
+	width: 80%;
+}
+
+
+.box4 {
+	height: 100vh;
+	width: 100%;
+}
+
+.box6 {
+	height: 100vh;
+	width: 100%;
+}
+
+
+.iframe {
+  border: 1px solid gray;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+.iframe iframe {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: grey;
+}
+
+li {
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	color: grey;
+}
+
+input {
+	border-radius: 4px;
+	width: 250px;
+	height: 30px;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	color: grey;
+	margin: 5px;
+}
+
+button {
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	color: grey;
+}
+
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 50%;
+    max-width: 500px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

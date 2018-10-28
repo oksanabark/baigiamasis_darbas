@@ -1,0 +1,106 @@
+/* Taip netvarkingai padaryta kol neturim mobilios versijos, naudojom flex, tad galima padaryti:  flex direction column .
+# ir turetu graziai issidestit, neuzteko laiko bet greitu metu padarysim :))
+#
+#
+*/
+
+
+
+
+
+
+
+/* Media queries */
+/* Samsung s5 */
+@media screen and (max-width: 360px) {
+  .box1 {
+    padding-top: 20px !important;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+   .box2 {
+     padding-top: 550px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box3 {
+    padding-top: 400px  !important;
+  }
+}
+
+/* Ipad */
+
+@media screen and (max-width: 360px) {
+  .box4 {
+    padding-top: 700px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box5 {
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .navbar.navbar-inverse.navbar-fixed-top {
+    visibility: hidden;
+  }
+}
+
+/* Pixel 2 & xl */
+/*
+@media screen and (max-width: 441px) {
+  .navbar.navbar-inverse.navbar-fixed-top {
+    visibility: hidden;
+  }
+} */
+
+@media screen and (max-width: 441px) {
+  .box2 {
+    padding-top: 450px  !important;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .box3 {
+    padding-top: 350px  !important;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .box4 {
+    padding-top: 900px  !important;
+  }
+}
+
+/* Iphon SE */
+
+@media screen and (max-width: 320px) {
+  .box2 {
+    padding-top: 600px !important;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .box4 {
+    padding-top: 1100px  !important;
+  }
+}
+
+/* Iphone 6 */
+
+@media screen and (max-width: 375px) {
+  .box3 {
+    padding-top: 400px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .box2 {
+    padding-top: 300px !important;
+  }
+}
